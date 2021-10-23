@@ -127,4 +127,18 @@ footer .container {
   justify-content: space-between;
   align-items: center;
 }
-/* header */
+
+footer small {
+  font-size: 16px;
+}
+
+footer li i {
+  font-size: 24px;
+}
+
+footer ul {
+  display: flex;
+}
+footer li + li {
+  margin-left: 8px;
+}
