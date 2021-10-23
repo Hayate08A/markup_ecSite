@@ -115,5 +115,16 @@ header li + li {
   text-align: center;
   margin: 32px auto 0;
 }
-/* header */
+/* footer */
+footer {
+  background: #4c4948;
+  padding: 16px 0;
+  color: #eee;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* header */
