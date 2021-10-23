@@ -160,4 +160,10 @@ footer li + li {
   body {
     background: skyblue;
   }
+
+  .container {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    max-width: 800px;
+  }
 }
