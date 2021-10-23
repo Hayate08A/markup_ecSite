@@ -4,9 +4,14 @@ body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   margin: 0;
   font-weight: normal;
+}
+
+p {
+  margin: 0;
 }
 
 img {
@@ -75,6 +80,19 @@ header li + li {
 /* products */
 .products {
   padding: 80px 0;
+}
+
+.products li {
+  width: 50%;
+  outline: 2px solid blue;
+}
+
+.products li img {
+  width: 100%;
+}
+
+.products li h2 {
+  font-size: 16px;
 }
 /* header */
 /* header */
