@@ -11,9 +11,16 @@ img {
   vertical-align: bottom;
 }
 
+.container {
+  margin: 0 16px;
+  outline: 2px solid red;
+}
+
 /* header */
 header {
   background: #eee;
+  padding: 8px 0;
 }
+
 /* header */
 /* header */
