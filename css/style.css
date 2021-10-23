@@ -21,6 +21,15 @@ ul {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
 
 /* header */
 header {
@@ -42,10 +51,15 @@ header li a {
   display: flex;
   flex-direction: column;
   font-size: 12px;
+  text-align-last: center;
 }
 
 header li a i {
   font-size: 18px;
+}
+
+header li + li {
+  margin-left: 8px;
 }
 
 /* header */
