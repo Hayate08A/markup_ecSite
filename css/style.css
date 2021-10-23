@@ -142,3 +142,19 @@ footer ul {
 footer li + li {
   margin-left: 8px;
 }
+
+/* medium screen */
+
+@media (min-width: 600px) {
+  body {
+    background: pink;
+  }
+}
+
+/* large screen */
+
+@media (min-width: 800px) {
+  body {
+    background: skyblue;
+  }
+}
