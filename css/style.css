@@ -149,6 +149,9 @@ footer li + li {
   body {
     background: pink;
   }
+  .products li {
+    width: calc((100% - 32px) / 3);
+  }
 }
 
 /* large screen */
