@@ -40,6 +40,7 @@ a:hover {
 }
 
 /* header */
+
 header {
   background: #eee;
   padding: 8px 0;
@@ -72,6 +73,21 @@ header li + li {
 
 header form {
   display: none;
+}
+
+header input,
+header button {
+  all: unset;
+}
+
+header input {
+  border-bottom: 1px solid #aaa;
+  padding: 4px;
+  width: 300px;
+}
+
+header button {
+  cursor: pointer;
 }
 
 /* hero */
